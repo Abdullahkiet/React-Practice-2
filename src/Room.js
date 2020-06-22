@@ -10,9 +10,9 @@ function Room() {
 
     return (
     <div className={`room ${isLit? "lit": "dark"}`}> 
-        Room Temperature is {isLit? "lit": "dark"}
+        The Room is {isLit? "lit": "dark"}
         <br/>
-        Age: {age}
+        The Room Temperature is: {age}
         <br/>
         <button onClick={()=> setLit(!isLit) } >On Light</button>
         <button onClick={()=> setLit(!isLit) } >Off Light</button>
