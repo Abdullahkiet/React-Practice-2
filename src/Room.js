@@ -14,7 +14,8 @@ function Room() {
         <br/>
         Age: {age}
         <br/>
-        <button onClick={()=> setLit(!isLit) } >Toggle Light</button>
+        <button onClick={()=> setLit(!isLit) } >On Light</button>
+        <button onClick={()=> setLit(!isLit) } >Off Light</button>
         <br/>
         <button onClick={ ()=> {
                         console.log("Increase age arrow function");
