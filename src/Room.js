@@ -5,7 +5,7 @@ function Room() {
 
    
     let [isLit, setLit] = useState(false);
-    let [age , setAge] = useState(24);
+    let [age , setAge] = useState(20);
     
 
     return (
